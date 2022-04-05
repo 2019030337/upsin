@@ -1,0 +1,80 @@
+<html>
+    <%-include('partials/head.html');%>
+
+<body background="img/fondo.png">
+    <header>
+		<img src="img/logo.png">
+        <%-include('partials/navegacion.html');%>
+    </header>
+
+    <div class="container">
+        <section id="seccion">
+			<div>
+				<i><h2 align="center" id="h2">Articulos destacados</h2>	</i>
+			</div>
+			<div class="acomodo">
+				<article id="articulo1">
+					<img src="img/inflableazul.png" id="img1">
+					<p>Piscina Inflabe Azul</p>
+					<p>$300.00</p>
+					<img src="img/spea.png" id="img1">
+					<p>Short de playa con estampado de ancla</p>
+					<p>$300.00</p>
+				</article>
+				<article id="articulo2">
+					<img src="img/zar.png" id="img1">
+					<p>Zapato Acuatico Rosa</p>
+					<p>$350.00</p>
+					<img src="img/tbafg.png" id="img1">
+					<p>Toalla de baño azul con flores gris</p>
+					<p>$100.00</p>
+				</article>
+				<article id="articulo3">
+					<img src="img/cifc.png" id="img2">
+					<p>Colchón inflable flotador de colores</p>
+					<p>$500.00</p>
+					<img src="img/fpb.png" id="img2">
+					<p>Flotador para bebé</p>
+					<p>$400.00</p>
+				</article>
+			</div>
+			<div class="mapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2179.762583618353!2d-106.45388390289219!3d23.24639518520638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869f54bb3f1f9d65%3A0xea95244eae787aed!2sLa%20Gitana%20Regalos%20Y%20Accesorios!5e0!3m2!1ses!2smx!4v1636427500267!5m2!1ses!2smx" width="700" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+			<form action="quejas.php" method="post" class="alineacion">
+				<b><p align="center">Quejas y Sugerencias</p></b>
+				<div id="p">
+					<p>Nombre: </p>
+					<p>Correo: </p>
+					<p>Telefono: </p>
+					<p>Fecha(AAAA/MM/DD): </p>
+					<p>Quejas y Sugerencias: </p>
+				</div>
+				<div id="i">
+					<input type="text" name="nomb"><br><br>
+					<input type="text" name="correo"><br><br>
+					<input type="text" name="tel"><br><br>
+					<input type="text" name="fec"><br><br>
+					<input type="text" name="quej"><br><br>
+				</div>
+				
+			<input type="submit" value="Enviar" id="input5">
+			</form>
+			<br>
+			<div id="info">
+				<h2 id="contacto">Información de Contacto:<br>
+				Berber Martinez Fatima Judith<br>
+				Perez Plascencia Fransico Javier</h2>
+				<h2 id="numero">669-255-2008<br>
+					669-446-6240</h2>
+				<img src="img/telefono.png" id="imagen1">
+				<h2 id="numero2">2019030337@upsin.edu.mx<br>
+					2019030360@upsin.edu.mx</h2>
+				<img src="img/correo.png" id="imagen2">
+			</div>
+        </section>
+    </div>
+    <%-include('partials/footer.html');%>
+
+</body>
+</html>

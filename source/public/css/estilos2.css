@@ -1,0 +1,55 @@
+.acomodo{
+	display: grid;
+	grid-template-columns: (3, 3fr);
+}
+
+a img{
+	width: 20%;
+	margin-left: 35em;
+	margin-bottom: 2em;
+}
+
+.bg{
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#img1{
+	width: 18em;
+	margin-top: 2%;
+}
+
+#img2{
+	width: 18em;
+	margin-top: 1%;
+	margin-left: 10%;
+}
+
+#img3{
+	width: 18em;
+	margin-top: 1%;
+	margin-top: 2%;
+}
+
+#p1{
+	text-align: left;
+}
+
+#p2{
+	margin-top: -90%;
+	margin-left: 32%;
+}
+
+#p3{
+	text-align: right;
+	margin-top: -92%;
+}
+
+footer{
+	background-color: #f5c471;
+	background-size: cover;
+	text-align: center;
+	font-size: 1px;
+	margin-left: 2em;
+	margin-right: 2em; 
+}

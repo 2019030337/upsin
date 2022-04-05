@@ -1,0 +1,186 @@
+#articulo1{
+	margin-left: -5%;
+}
+
+#articulo2{
+	margin-left: 37%;
+	margin-top: -60%;
+}
+
+#articulo3{
+	margin-left: 80%;
+	margin-top: -59%;
+}
+
+#img1{
+	margin-left: 2%;
+}
+
+#img2{
+	width: 5000%;
+}
+
+.margen{
+	margin-right: 15px;
+}
+
+
+#h2{
+	margin-top: 5%;
+}
+
+header img{
+	width: 20%;
+	margin-left: 40em;
+	margin-top: 2%;
+}
+
+#bg{
+	background-repeat: no-repeat;
+}
+
+#h1{
+	font-size: 50px;
+	margin-top: 3%;
+	border-style: solid;
+	border-radius: 15px;
+	border-right-width: 60px;
+	border-left-width: 60px;
+	margin-left: 5em;
+	margin-right: 5em;
+	border-color: #f5c471;
+}
+
+#menu{
+	background-color: #f5c471;
+	font-family: Verdana;
+	border-style: solid;
+	border-radius: 15px;
+	border-color: #dbcf8f;
+	margin-right: 4em;
+	margin-left: 5em;
+	margin-top: 5px;
+}
+
+body{
+	font-family: Verdana;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div p{
+	margin-left: 6em;
+}
+
+.acomodo{
+	display: grid;
+	grid-template-columns: (3, 2fr);
+}
+
+.mapa{
+	margin-left: 20em;
+    position: bottom;
+    margin-top: 5%;
+}
+
+.alineacion{
+	position: bottom;
+	margin-left: 28em;
+	border-color: blue;
+	border-style: solid;
+	margin-right: 24em;
+	margin-top: 2%;
+	background-color: #f5c471;
+	border-color: #dbcf8f;
+	font-family: Verdana;
+}
+
+#a1{
+	margin-left: 5em;
+	margin-top: -4%;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+#a2{
+	margin-left: 1em;
+	margin-top: -4%;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+#a3{
+	margin-left: 1em;
+	margin-top: -4%;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+#a4{
+	margin-left: 1em;
+	margin-top: -4%;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+
+#input5{
+	margin-left: 45%;
+}
+
+#imagen1{
+	width: 4%;
+	margin-left: 22%;
+}
+
+#imagen2{
+	width: 4%;
+	margin-left: 75%;
+}
+
+
+#numero{
+	text-align: left;
+	margin-top: 2%;
+	margin-left: 15%;
+}
+
+#numero2{
+	text-align: right;
+	margin-top: -10.7%;
+	margin-right: 5%;
+}
+
+#contacto{
+	text-align: center;
+}
+
+form p{
+	margin-left: 2em
+}
+
+#barra{
+	margin-left: 12em;
+	font-size: 25px;
+}
+
+#p{
+	text-align: left;
+	line-height: 230%;
+}
+
+#i{
+	text-align: right;
+	margin-top: -57%;
+}
+
+#info{
+	margin-bottom: 5%;
+	margin-top: 3%;
+	font-size: 1%;
+	background-color: #f5c471;
+}
